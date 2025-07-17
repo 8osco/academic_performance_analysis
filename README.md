@@ -7,7 +7,7 @@ The dataset is sourced from Kaggle and can be downloaded from the link below.
 
 https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 
-[placeholder - field definitions]
+[placeholder!! - field definitions]
 
 ## Business Requirements
 1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section.
@@ -38,7 +38,7 @@ These will be examined and validate through analyses and use of visualisations.
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-[placeholder - model performance analysis, feature selection for 2, PCA for 5]
+[placeholder!! - model performance analysis, feature selection for 2, PCA for 5]
 
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
