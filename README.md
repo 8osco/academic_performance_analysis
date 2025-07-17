@@ -1,20 +1,28 @@
-# Project XYZ
-
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 🎓 Academic Performance Analysis
+This project explores and models academic performance based on student records that encompass demographics, academic and engagement attributes.
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset is sourced from Kaggle and can be downloaded from the link below.
 
+https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
+
+[placeholder - field definitions]
 
 ## Business Requirements
-* Describe your business requirements
-
+1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section.
+2. **Prediction Model**: Build a model to predict whether a student will Pass or Fail.
+3. **Key drivers identification**: Identify which attributes influence predictions the most.
+4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
+5. **Prediction Model Enhancement**: Explore potential hidden clusters to enhance prediction, e.g. through unsupervised learning
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+1. Students who raised their hands more often were more likely to pass.
+2. Students who visited more resources are more likely to pass.
+3. Students with a parent (or guardian) involved were more likely to pass.
+4. Female students had a higher pass rate than male students.
+
+These will be examined and validate through analyses and use of visualisations.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
@@ -29,6 +37,8 @@
 * How did you structure the data analysis techniques. Justify your response.
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+
+[placeholder - model performance analysis, feature selection for 2, PCA for 5]
 
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
