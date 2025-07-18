@@ -155,9 +155,14 @@ Add link to project board
 * Thank the people who provided support through this project.
 
 
-
+[Placeholders!! - 
 
 | Folder | File | Key content |
 |----------|----------|----------|
 | Data | Value B1 | Value C1 |
 | Value A2 | Value B2 | Value C2 |
+
+
+[Placeholders!! - check yellow cells in 'capstone checklist']
+
+[Placeholders!! - submission questionnaire]
