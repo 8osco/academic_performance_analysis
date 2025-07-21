@@ -18,9 +18,11 @@ https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
 5. **Prediction Model Enhancement**: Explore potential hidden clusters to enhance prediction, e.g. through unsupervised learning
 
+5 is not strictly a business requirement, but will be explored where time permits.
+
 ## Hypothesis and how to validate?
 1. Students who raised their hands more often were more likely to pass.
-2. Students who visited more resources are more likely to pass.
+2. Students who visited more resources were more likely to pass.
 3. Students with a parent (or guardian) involved were more likely to pass.
 4. Female students had a higher pass rate than male students.
 
