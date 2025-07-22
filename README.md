@@ -66,6 +66,28 @@ Add link to project board
 [placeholder!! - Learners should provide commentary on why they chose specific methods and explain limitations or alternative approaches. This can be done in a markdown section of the notebook or as a reflective section in the dashboard.]
 
 
+--------------------------
+
+exploratory mentality, given there are many variables
+
+think of possible way to reduce number of variables/dimensionality to minimise risk of model overfitting 
+
+re-run code e.g. Mother vs mum
+
+ordering lost due to use of csv to break the process up for better presentation.  Won't lose ordering otherwise.  However, ordering won't carry through to PowerBI charts
+
+Seaborn Charts not displayed - need additional command
+
+Y-profiling report not displayed on VScode - need additional packages/upgrades
+
+Y-profiling report not displayed on Github - need create html file and create new GitHub page to display on browser
+
+Use of CategoricDtype brings out interesting warning messages.  Reveal Panda's quirks re dtype showing in df.info()
+
+Experiment with the data, make observations, shortlist for further analysis, create charts to visualise, inform further actions
+
+------------------------------
+
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
