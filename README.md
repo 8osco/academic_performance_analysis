@@ -189,4 +189,6 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 
 [Placeholders!! - check yellow cells in 'capstone checklist']
 
+[Placeholders!! - check comments for %pip in 2]
+
 [Placeholders!! - submission questionnaire]
