@@ -192,3 +192,11 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 [Placeholders!! - check comments for %pip in 2]
 
 [Placeholders!! - submission questionnaire]
+
+
+------------------------------
+Next steps:
+
+Where parents had answered the survey, similar satisfaction levels can be observed regardless of which parent was involved.  The difference is more pronounced where parents did not answered the survey, there were a lot more fathers than mums who were not satisfied with the school.  This can be further investigated to see if this is associated with the underlying student performance.
+
+-------------------------------
