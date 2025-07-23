@@ -16,9 +16,6 @@ https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 2. **Prediction Model**: Build a model to predict whether a student will Pass or Fail.
 3. **Key drivers identification**: Identify which attributes influence predictions the most.
 4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
-5. **Prediction Model Enhancement**: Explore potential hidden clusters to enhance prediction, e.g. through unsupervised learning
-
-5 is not strictly a business requirement, but will be explored where time permits.
 
 ## Hypothesis and how to validate?
 1. Students who raised their hands more often were more likely to pass.
@@ -27,6 +24,15 @@ https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 4. Female students had a higher pass rate than male students.
 
 These will be examined and validate through analyses and use of visualisations.
+
+## File structure
+
+[Placeholders!! - 
+
+| Folder | File | Key content |
+|----------|----------|----------|
+| Data | Value B1 | Value C1 |
+| Value A2 | Value B2 | Value C2 |
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
@@ -39,6 +45,11 @@ User stories were added to help outline the steps
 As outcome of the tests and models built are unknown at the outset, project plan is subject to refinement and changes
 Add link to project board
 
+Ideation with gen AI
+
+
+
+project planning - a lot of time was spent on EDA, which was expected
 
 [Placeholder!! - Construct a complete project plan, including implementation, maintenance, updates, and evaluation phases.  Document a project plan outlining steps for data collection, updates, model retraining, and ongoing evaluation. The dashboard can include features for future updates, such as adding new data sources.]
 
@@ -145,20 +156,7 @@ Challenge - couldn't sort the school order, despite following AI suggestions]
  [Placeholder!! - reflect on your progress, the challenges you've faced, and the strategies used to overcome these challenges. This shows a continuous learning mindset. Within your README, include a development roadmap that details what new skills or tools you plan to learn next based on your project experience.]
 
 
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
+Prediction Model Enhancement.  Explore potential hidden clusters to enhance prediction, e.g. through unsupervised learning
 
 
 ## Main Data Analysis Libraries
@@ -178,54 +176,21 @@ Challenge - couldn't sort the school order, despite following AI suggestions]
 
 [Placeholder!! - Use AI tools to generate insights from data, such as creating a narrative or summarising key findings. This could be showcased in the dashboard through visualisations or text summaries. The dashboard could have an AI-generated summary of key data insights, visualisations, and explanations that are designed for both technical and non-technical audiences. Use Gen AI agent-based prompts for ideation, design thinking and business requirements.]
 
+Amrieh, E. A., Hamtini, T., & Aljarah, I. (2016). Mining Educational Data to Predict Student’s academic Performance using Ensemble Methods. International Journal of Database Theory and Application, 9(8), 119-136.
+
+Amrieh, E. A., Hamtini, T., & Aljarah, I. (2015, November). Preprocessing and analyzing educational data set using X-API for improving student's performance. In Applied Electrical Engineering and Computing Technologies (AEECT), 2015 IEEE Jordan Conference on (pp. 1-5). IEEE.
+
+
+Gen AI to help learn and check understanding of stats concept and code structure
 
 
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
+## Acknowledgements
+A special thanks to the tutors at Code Institute, the support received and discussions have been invaluable.
 
 
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
-
-
-[Placeholders!! - 
-
-| Folder | File | Key content |
-|----------|----------|----------|
-| Data | Value B1 | Value C1 |
-| Value A2 | Value B2 | Value C2 |
 
 
 [Placeholders!! - check yellow cells in 'capstone checklist']
-
-[Placeholders!! - check comments for %pip in 2 and 3]
-[Placeholders!! - summary section in 2]
-
 [Placeholder!! - recheck jpg link]
-
 [Placeholders!! - submission questionnaire]
-
-
-Ideation with gen AI
-Gen AI to help learn and check understanding of stats concept and code structure
-Ghost text/code? with co-pilot to help with comments
-
-project planning - a lot of time was spent on EDA, which was expected
-
-
-------------------------------
-Next steps:
-
-Where parents had answered the survey, similar satisfaction levels can be observed regardless of which parent was involved.  The difference is more pronounced where parents did not answered the survey, there were a lot more fathers than mums who were not satisfied with the school.  This can be further investigated to see if this is associated with the underlying student performance.
-
--------------------------------
