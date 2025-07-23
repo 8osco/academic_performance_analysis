@@ -111,6 +111,9 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 
 [placeholder!! - The notebook should include well-documented sections, while the dashboard should feature clear labels, tooltips, or explanations for each visualisation or insight. The dashboard should include a clear narrative that guides the audience through the data story, explaining key insights and findings.]
 
+[placeholder!! - due to limitations with the version of PowerBI being used, a link cannot be provided, however, a file is available in XXXXX folder labelled YYYYY]
+
+
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
 * Did you recognise gaps in your knowledge, and how did you address them?
@@ -195,6 +198,8 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 
 [Placeholders!! - check comments for %pip in 2 and 3]
 [Placeholders!! - summary section in 2]
+
+[Placeholder!! - recheck jpg link]
 
 [Placeholders!! - submission questionnaire]
 
