@@ -111,6 +111,18 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 
 [placeholder!! - The notebook should include well-documented sections, while the dashboard should feature clear labels, tooltips, or explanations for each visualisation or insight. The dashboard should include a clear narrative that guides the audience through the data story, explaining key insights and findings.]
 
+[Placeholder!! - 
+Dashboard items informed by the key features identified from the coefficient ranking exercise
+
+Pass rate and number of students involved were key metrics
+
+Pass rate derived using DAX
+
+ISO code needed for country location (as country names can be ambiguous)
+
+Challenge - couldn't sort the school order, despite following AI suggestions]
+
+
 [placeholder!! - due to limitations with the version of PowerBI being used, a link cannot be provided, however, a file is available in XXXXX folder labelled YYYYY]
 
 
