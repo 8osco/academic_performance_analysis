@@ -78,6 +78,8 @@ ordering lost due to use of csv to break the process up for better presentation.
 
 Seaborn Charts not displayed - need additional command
 
+exploratory data analysis step provided further checks on data, e.g. flagged potential typo in grade for one student
+
 Y-profiling report not displayed on VScode - need additional packages/upgrades
 
 Y-profiling report not displayed on Github - need create html file and create new GitHub page to display on browser
@@ -190,8 +192,14 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 [Placeholders!! - check yellow cells in 'capstone checklist']
 
 [Placeholders!! - check comments for %pip in 2 and 3]
+[Placeholders!! - summary section in 2]
 
 [Placeholders!! - submission questionnaire]
+
+
+Ideation with gen AI
+Gen AI to help learn and check understanding of stats concept and code structure
+Ghost text/code? with co-pilot to help with comments
 
 
 ------------------------------
