@@ -91,13 +91,9 @@ User interaction is enabled through selectable buttons and interactive map eleme
 The attributes presented were selected based on insights from the coefficient ranking exercise, which revealed several notable patterns:
 
 - Students from Saudi Arabia have a comparatively higher pass rate
-
 - Students in the low absence group perform better
-
 - Middle school students tend to have higher pass rates than those in other education stages
-
 - Female students outperform male students in terms of pass rate
-
 - Students whose parents responded to the survey show higher success rates
 
 The dashboard also allows for cross-feature comparisons, enabling users to explore how combinations of these attributes impact academic outcomes.
