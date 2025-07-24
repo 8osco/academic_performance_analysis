@@ -103,72 +103,37 @@ The dashboard also allows for cross-feature comparisons, enabling users to explo
 
 
 ## 9 Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+There are a few features in the PowerBI dashboard that I was hoping to fix but am still searching for solutions:
 
-[Placeholder!! - In your bug section of the README, mention how you adapted the code to overcome challenges. This can include identifying specific moments where you recognised gaps in your knowledge and how you addressed them. If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.]
+1) locking down the map so that user won't inadvertently drag away and cannot find the country buttons;
+2) putting school buttons in the following order - high, middle, lower;
+3) disallowing buttons being switched off all at the same time for each button slicer
 
-ordering lost due to use of csv to break the process up for better presentation.  Won't lose ordering otherwise.  However, ordering won't carry through to PowerBI charts
-
-Challenge - couldn't sort the school order, despite following AI suggestions]
-
-Y-profiling report not displayed on VScode - need additional packages/upgrades
-
-Y-profiling report not displayed on Github - need create html file and create new GitHub page to display on browser
-
-Use of CategoricDtype brings out interesting warning messages.  Reveal Panda's quirks re dtype showing in df.info()
-
-Seaborn Charts not displayed - need additional commands
 
 ## 10 Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+The work on ordering categorical values took more time than anticipated, and the ordering information was lost due to the use of csv files to break the process into stages for clearer presentation. This exercise offered valuable insight into how categorical handling works under the hood and also highlighted limitations in some of the functions, e.g. df.info() does not show ordered categorical as a data type.
 
- [Placeholder!! - In the notebook, learners should reflect on challenges like dataset size or deployment issues and discuss potential solutions.]
- [In the notebook, learners can discuss challenges they faced during the analysis, such as data limitations, and suggest alternative approaches (e.g., using different techniques or more extensive datasets).]
-
-
- [Placeholder!! - reflect on your progress, the challenges you've faced, and the strategies used to overcome these challenges. This shows a continuous learning mindset. Within your README, include a development roadmap that details what new skills or tools you plan to learn next based on your project experience.]
-
-Try more statistical tests if time permits 
-
-Prediction Model Enhancement.  Explore potential hidden clusters to enhance prediction, e.g. through unsupervised learning
-
+Looking ahead, I would like to explore different approaches to enhance prediction models . This includes experimenting with unsupervised learning techniques to uncover potential hidden clusters that could improve predictive performance.
 
 
 ## 11 Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
-
-[Placeholder!! - Explain why you chose specific tools (e.g., comparing different Python libraries like Matplotlib vs. Plotly for visualisation). Detail in Jupyter any experiments with new tools or methodologies, showing code snippets and explaining their results. Incorporate new tools/technologies you've researched (such as a new library). The project would show evidence of trial, adaptation, and application in a meaningful way. Focus on challenges encountered and solutions found, explaining how you adapted to using them in the project.]
-
+NumPy and Pandas for data interrogation and manuipulation.
+Seaborn and Plotly, supported by Matplotlib, for the visualisations.
+Ydata profiling for exploratory data analysis
+Pingouin for statistical testing
+Scikit-learn for machine learning model building, evaluation and pipeline management
+Feature-engine for feature encoding and transformation
 
 
 ## 12 Credits 
-
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-
-[Placeholder!! - Learners could integrate an AI assistant, such as Copilot, into their notebook to suggest or optimise code snippets. They can document examples where AI tools helped in tasks like data cleaning, ideation or design thinking.]
-
-[Placeholder!! - Use AI tools to generate insights from data, such as creating a narrative or summarising key findings. This could be showcased in the dashboard through visualisations or text summaries. The dashboard could have an AI-generated summary of key data insights, visualisations, and explanations that are designed for both technical and non-technical audiences. Use Gen AI agent-based prompts for ideation, design thinking and business requirements.]
-
 Amrieh, E. A., Hamtini, T., & Aljarah, I. (2016). Mining Educational Data to Predict Student’s academic Performance using Ensemble Methods. International Journal of Database Theory and Application, 9(8), 119-136.
 
 Amrieh, E. A., Hamtini, T., & Aljarah, I. (2015, November). Preprocessing and analyzing educational data set using X-API for improving student's performance. In Applied Electrical Engineering and Computing Technologies (AEECT), 2015 IEEE Jordan Conference on (pp. 1-5). IEEE.
 
-Ideation with gen AI
-Gen AI to help learn and check understanding of stats concept and code structure
-Explain how data analytics and AI can address specific challenges or opportunities. Learners can outline AI solutions (e.g., Copilot or gen AI ideation) used in the analysis and their impact on solving domain-specific problems.]
+ChatGPT and GitHub Copilot for ideation such as hypotheses filtering, learning and checking understanding of data analytical concepts and techniques, code creation and clarification.
 
+Code Institute course materials, SME, data coach, PDBA sessions.
 
 ## 13 Acknowledgements
 A special thanks to the tutors at Code Institute, the support received and discussions have been invaluable.
 
-
-
-
-[Placeholders!! - check yellow cells in 'capstone checklist']
-[Placeholder!! - recheck jpg link]
-[Placeholders!! - submission questionnaire]
