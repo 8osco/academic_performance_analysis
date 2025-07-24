@@ -13,17 +13,17 @@ https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 ## 2 Business Requirements
 There are 4 areas we aim to cover in this project:
 
-1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section.
-2. **Prediction Model**: Build a model to predict whether a student will Pass or Fail.
-3. **Key drivers identification**: Identify which attributes influence predictions the most.
-4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
+1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section
+2. **Prediction Model**: Build a model to predict whether a student will Pass or Fail
+3. **Key drivers identification**: Identify which attributes influence predictions the most
+4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes
 
 
 ## 3 Hypothesis
-1. Students who raised their hands more often were more likely to pass.
-2. Students who visited more resources were more likely to pass.
-3. Students with a parent (or guardian) involved were more likely to pass.
-4. Female students had a higher pass rate than male students.
+1. Students who raised their hands more often were more likely to pass
+2. Students who visited more resources were more likely to pass
+3. Students with a parent (or guardian) involved were more likely to pass
+4. Female students had a higher pass rate than male students
 
 
 ## 4 File structure
