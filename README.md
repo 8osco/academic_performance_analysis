@@ -41,7 +41,7 @@ The project files are managed in GitHub and the arrangement is as follows:
 | pictures |relationships_between_parent_variables.jpg|screenshot of the Plotly graph used in Analysis Step 2| 1|
 | y_profiling_report |profile_report.html**|Ydata profiling report used in Analysis Step 2| 1|
 
-*Due to limitations with the version of PowerBI being used, a link cannot be provided.  The file can be downloaded from the "dashboard" folder.
+*Due to limitations with the version of PowerBI being used, a link cannot be provided.  The file can be downloaded from this folder https://github.com/8osco/academic_performance_analysis/tree/main/dashboard
 
 **The Ydata profiling report can also be viewed directly in https://8osco.github.io/
 
@@ -106,8 +106,8 @@ The dashboard also allows for cross-feature comparisons, enabling users to explo
 ## 9 Unfixed Bugs
 There are a few features in the PowerBI dashboard that I was hoping to fix but am still searching for solutions:
 
-1) locking down the map so that user won't inadvertently drag away and cannot find the country buttons;
-2) putting school buttons in the following order - high, middle, lower;
+1) locking down the map so that user won't inadvertently drag away and cannot find the country buttons
+2) putting school buttons in the following order - high, middle, lower
 3) disallowing buttons being switched off all at the same time for each button slicer
 
 
