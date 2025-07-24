@@ -19,17 +19,15 @@ There are 4 areas we aim to cover in this project:
 4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
 
 
-## 3 Hypothesis and how to validate?
+## 3 Hypothesis
 1. Students who raised their hands more often were more likely to pass.
 2. Students who visited more resources were more likely to pass.
 3. Students with a parent (or guardian) involved were more likely to pass.
 4. Female students had a higher pass rate than male students.
 
-The hypotheses will be examined through data visualisations and evaluated using statistical metrics (e.g. mean, variance), followed by validation through statistical tests.
-
 
 ## 4 File structure
-The project files are managed in Github and the arrangement is as follows:
+The project files are managed in GitHub and the arrangement is as follows:
 
 | Folder | Sub Folder| File | Business requirement | Key content |
 |----------|----------|----------|----------|----------|
@@ -45,34 +43,29 @@ The project files are managed in Github and the arrangement is as follows:
 
 *The Ydata profiling report can also be viewed in https://8osco.github.io/
 
-Project board can be found in https://github.com/users/8osco/projects/8/views/1
+Version control is mostly managed via GitHub, using regular commits and pushes to track changes.  The only exceptions are PowerBI files, where version control is managed on PowerBI workspace.  Only the final version is copied to GitHub.
 
-Version Control, labelling
 
-## Project Plan
+## 5 Project Plan
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
 
-The project plan was initiated following the establishment of business requirements on the dataset chosen.  
-Supported by GitHub project board
-User stories were added to help outline the steps
-As outcome of the tests and models built are unknown at the outset, project plan is subject to refinement and changes
-Add link to project board
 
-Ideation with gen AI
+The project plan was initiated following the establishment of the 4 business requirements. The first 3 requirements are addressed primarily through the use of Jupyter Notebooks. The corresponding implementation is reflected in the file structure outlined above, with each analysis step detailed as follows:
 
+Analysis Step 1 – Data extraction and familiarisation with the dataset. Python functions were used to identify missing values, duplicates and outliers. A list of data quality issues was prepared and investigated further. Data cleaning tasks were prioritised, leading to the delivery of the first version of the cleaned dataset.
 
+Analysis Step 2 – Further feature analysis was conducted using the YData Profiling tool. Visualisations were employed to explore relationships between features, supporting initial views on feature selection.
 
-project planning - a lot of time was spent on EDA, which was expected
+Analysis Step 3 – The four hypotheses were explored using data visualisations and evaluated with statistical measures (e.g., mean, variance), followed by validation using appropriate statistical tests.
 
-[Placeholder!! - Construct a complete project plan, including implementation, maintenance, updates, and evaluation phases.  Document a project plan outlining steps for data collection, updates, model retraining, and ongoing evaluation. The dashboard can include features for future updates, such as adding new data sources.]
+Analysis Step 4 – A prediction model was developed and evaluated to assess performance. Key features influencing academic outcomes were identified to inform the metrics and visual elements of the executive dashboard.
 
-[Placeholder!! - Organise the project effectively, such as using version control systems, documenting code, and structuring the notebook. The README could include a project plan outlining the steps taken in the analysis. Learners can show clear, modular organisation in their Jupyter Notebook with sections for introduction, methodology, analysis, and conclusions. The dashboard can reflect a well-thought-out user experience, guiding the audience through the data story.]
+Project planning, monitoring and evaluation process was supported by Github project board, which can be found in https://github.com/users/8osco/projects/8/views/1.  User stories were created to guide the sequencing and formation of individual analysis steps.
 
 
-
-## The rationale to map the business requirements to the Data Visualisations
+## 6 The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 [placeholder!! - Articulate complex data insights in the dashboard, using visualisations and narratives to enhance user understanding. The README could include a section on how data insights were communicated to technical and non-technical audiences. The dashboard should include visualisations that are easy to understand and provide clear insights into the data. The README should explain how the dashboard was designed to communicate complex data insights to different audiences. The dashboard should include both technical metrics (e.g., statistical outputs, model accuracy) and simplified summaries or visualisations for a general audience.]
@@ -137,8 +130,18 @@ Experiment with the data, make observations, shortlist for further analysis, cre
 [placeholder!! - Articulate complex data insights in the dashboard, using visualisations and narratives to enhance user understanding. The README could include a section on how data insights were communicated to technical and non-technical audiences. The dashboard should include visualisations that are easy to understand and provide clear insights into the data. The README should explain how the dashboard was designed to communicate complex data insights to different audiences. The dashboard should include both technical metrics (e.g., statistical outputs, model accuracy) and simplified summaries or visualisations for a general audience.]
 
 [placeholder!! - The notebook should include well-documented sections, while the dashboard should feature clear labels, tooltips, or explanations for each visualisation or insight. The dashboard should include a clear narrative that guides the audience through the data story, explaining key insights and findings.]
+The dashboard can reflect a well-thought-out user experience, guiding the audience through the data story.
+
+Determine key attributes to present
+
+Create a dashboard which provides interactive insights into the pass/fail distribution by key attributes
+
+Provide logic of the charts used
+
+Provide narratives and highlight key observations
 
 [Placeholder!! - 
+
 Dashboard items informed by the key features identified from the coefficient ranking exercise
 
 Pass rate and number of students involved were key metrics
@@ -196,7 +199,7 @@ Amrieh, E. A., Hamtini, T., & Aljarah, I. (2016). Mining Educational Data to Pre
 
 Amrieh, E. A., Hamtini, T., & Aljarah, I. (2015, November). Preprocessing and analyzing educational data set using X-API for improving student's performance. In Applied Electrical Engineering and Computing Technologies (AEECT), 2015 IEEE Jordan Conference on (pp. 1-5). IEEE.
 
-
+Ideation with gen AI
 Gen AI to help learn and check understanding of stats concept and code structure
 
 
