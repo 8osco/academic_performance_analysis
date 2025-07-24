@@ -4,13 +4,13 @@ Data analytics is increasingly valuable in education, helping institutions ident
 This project explores the relationship between students' demographics, academic performance, and engagement attributes to understand how these factors influence overall academic success.
 
 
-## Dataset Content
+## 1 Dataset Content
 The dataset is sourced from Kaggle and can be downloaded from the link below.
 
 https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 
 
-## Business Requirements
+## 2 Business Requirements
 There are 4 areas we aim to cover in this project:
 
 1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section.
@@ -19,7 +19,7 @@ There are 4 areas we aim to cover in this project:
 4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
 
 
-## Hypothesis and how to validate?
+## 3 Hypothesis and how to validate?
 1. Students who raised their hands more often were more likely to pass.
 2. Students who visited more resources were more likely to pass.
 3. Students with a parent (or guardian) involved were more likely to pass.
@@ -28,14 +28,26 @@ There are 4 areas we aim to cover in this project:
 The hypotheses will be examined through data visualisations and evaluated using statistical metrics (e.g. mean, variance), followed by validation through statistical tests.
 
 
-## File structure
+## 4 File structure
+The project files are managed in Github and the arrangement is as follows:
 
-[Placeholders!! - 
+| Folder | Sub Folder| File | Business requirement | Key content |
+|----------|----------|----------|----------|----------|
+| dashboard | |academic_performance_dashboard.pbix | 4 |Executive dashboard in PowerBI|
+| data |inputs/raw |xAPI-Edu-Data.csv | 1|csv file downloaded from Kaggle|
+| data |inputs/cleaned |edu_data_cleaned.csv | 1|csv file saved after data cleaning|
+| jupyter_notebooks ||1_data_etl.ipynb | 1|Analysis Step 1 - data extract, transform and load|
+| jupyter_notebooks ||2_exploratory_analysis.ipynb | 1|Analysis Step 2 - exploratory data analysis|
+| jupyter_notebooks ||3_hypothesis_testing.ipynb | 1|Analysis Step 3 - hypothesis testing|
+| jupyter_notebooks ||4_prediction_model.ipynb| 2 and 3|Analysis Step 4 - prediction model and key drivers identification|
+| pictures ||relationships_between_parent_variables.jpg| 1|screenshot of the Plotly graph used in Analysis Step 2|
+| y_profiling_report ||profile_report.html*| 1|Ydata profiling report used in Analysis Step 2|
 
-| Folder | File | Key content |
-|----------|----------|----------|
-| Data | Value B1 | Value C1 |
-| Value A2 | Value B2 | Value C2 |
+*The Ydata profiling report can also be viewed in https://8osco.github.io/
+
+Project board can be found in https://github.com/users/8osco/projects/8/views/1
+
+Version Control, labelling
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
