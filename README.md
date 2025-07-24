@@ -29,17 +29,17 @@ There are 4 areas we aim to cover in this project:
 ## 4 File structure
 The project files are managed in GitHub and the arrangement is as follows:
 
-| Folder |  File | Business requirement | Key content |
+| Folder | File | Key content | Business requirement |
 |----------|----------|----------|----------|
-| dashboard | academic_performance_dashboard.pbix* | 4 |Executive dashboard in PowerBI|
-| data/inputs/raw |xAPI-Edu-Data.csv | 1|csv file downloaded from Kaggle|
-| data/inputs/cleaned |edu_data_cleaned.csv | 1|csv file saved after data cleaning|
-| jupyter_notebooks |1_data_etl.ipynb | 1|Analysis Step 1 - data extract, transform and load|
-| jupyter_notebooks |2_exploratory_analysis.ipynb | 1|Analysis Step 2 - exploratory data analysis|
-| jupyter_notebooks |3_hypothesis_testing.ipynb | 1|Analysis Step 3 - hypothesis testing|
-| jupyter_notebooks |4_prediction_model.ipynb| 2 and 3|Analysis Step 4 - prediction model and key drivers identification|
-| pictures ||relationships_between_parent_variables.jpg| 1|screenshot of the Plotly graph used in Analysis Step 2|
-| y_profiling_report ||profile_report.html**| 1|Ydata profiling report used in Analysis Step 2|
+| dashboard | academic_performance_dashboard.pbix* |Executive dashboard in PowerBI| 4 |
+| data/inputs/raw |xAPI-Edu-Data.csv |csv file downloaded from Kaggle| 1|
+| data/inputs/cleaned |edu_data_cleaned.csv |csv file saved after data cleaning| 1|
+| jupyter_notebooks |1_data_etl.ipynb |Analysis Step 1 - data extract, transform and load| 1|
+| jupyter_notebooks |2_exploratory_analysis.ipynb |Analysis Step 2 - exploratory data analysis| 1|
+| jupyter_notebooks |3_hypothesis_testing.ipynb |Analysis Step 3 - hypothesis testing| 1|
+| jupyter_notebooks |4_prediction_model.ipynb|Analysis Step 4 - prediction model and key drivers identification| 2 and 3|
+| pictures |relationships_between_parent_variables.jpg|screenshot of the Plotly graph used in Analysis Step 2| 1|
+| y_profiling_report |profile_report.html**|Ydata profiling report used in Analysis Step 2| 1|
 
 *Due to limitations with the version of PowerBI being used, a link cannot be provided, however, a file is available in this folder]
 **The Ydata profiling report can also be viewed in https://8osco.github.io/
