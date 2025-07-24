@@ -1,21 +1,23 @@
 # 🎓 Academic Performance Analysis
-This project explores and models academic performance based on student records that encompass demographics, academic and engagement attributes.
+Data analytics is increasingly valuable in education, helping institutions identify at-risk students, personalize learning, and improve academic outcomes. The data-driven approach can support educators make informed decisions to better tailor teaching strategies and allocate resources.
 
-[placeholder!! - Explore relevant applications of data analytics in the chosen data domain, indicating a breadth of understanding and curiosity. Learners can include a section in their notebook or dashboard that discusses the application of analytics within the dataset’s domain, such as healthcare, retail, or finance, and how data analytics is useful for solving specific challenges.
-Explain how data analytics and AI can address specific challenges or opportunities. Learners can outline AI solutions (e.g., Copilot or gen AI ideation) used in the analysis and their impact on solving domain-specific problems.]
+This project explores the relationship between students' demographics, academic performance, and engagement attributes to understand how these factors influence overall academic success.
+
 
 ## Dataset Content
 The dataset is sourced from Kaggle and can be downloaded from the link below.
 
 https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 
-[placeholder!! - field definitions]
 
 ## Business Requirements
+There are 4 areas we aim to cover in this project:
+
 1. **Hypotheses Testing**: Validate assumptions about factors affecting Pass/Fail status.  The assumptions are set out in the next section.
 2. **Prediction Model**: Build a model to predict whether a student will Pass or Fail.
 3. **Key drivers identification**: Identify which attributes influence predictions the most.
 4. **Executive Dashboard**: Build an interactive dashboard to provide insight into Pass/Fail distribution by key attributes.
+
 
 ## Hypothesis and how to validate?
 1. Students who raised their hands more often were more likely to pass.
@@ -23,7 +25,8 @@ https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data/data
 3. Students with a parent (or guardian) involved were more likely to pass.
 4. Female students had a higher pass rate than male students.
 
-These will be examined and validate through analyses and use of visualisations.
+The hypotheses will be examined through data visualisations and evaluated using statistical metrics (e.g. mean, variance), followed by validation through statistical tests.
+
 
 ## File structure
 
@@ -76,6 +79,7 @@ project planning - a lot of time was spent on EDA, which was expected
 
 [placeholder!! - Learners should provide commentary on why they chose specific methods and explain limitations or alternative approaches. This can be done in a markdown section of the notebook or as a reflective section in the dashboard.]
 
+Explain how data analytics and AI can address specific challenges or opportunities. Learners can outline AI solutions (e.g., Copilot or gen AI ideation) used in the analysis and their impact on solving domain-specific problems.]
 
 --------------------------
 
