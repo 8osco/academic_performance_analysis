@@ -29,15 +29,15 @@ There are 4 areas we aim to cover in this project:
 ## 4 File structure
 The project files are managed in GitHub and the arrangement is as follows:
 
-| Folder | Sub Folder| File | Business requirement | Key content |
-|----------|----------|----------|----------|----------|
-| dashboard | |academic_performance_dashboard.pbix* | 4 |Executive dashboard in PowerBI|
-| data |inputs/raw |xAPI-Edu-Data.csv | 1|csv file downloaded from Kaggle|
-| data |inputs/cleaned |edu_data_cleaned.csv | 1|csv file saved after data cleaning|
-| jupyter_notebooks ||1_data_etl.ipynb | 1|Analysis Step 1 - data extract, transform and load|
-| jupyter_notebooks ||2_exploratory_analysis.ipynb | 1|Analysis Step 2 - exploratory data analysis|
-| jupyter_notebooks ||3_hypothesis_testing.ipynb | 1|Analysis Step 3 - hypothesis testing|
-| jupyter_notebooks ||4_prediction_model.ipynb| 2 and 3|Analysis Step 4 - prediction model and key drivers identification|
+| Folder |  File | Business requirement | Key content |
+|----------|----------|----------|----------|
+| dashboard | academic_performance_dashboard.pbix* | 4 |Executive dashboard in PowerBI|
+| data/inputs/raw |xAPI-Edu-Data.csv | 1|csv file downloaded from Kaggle|
+| data/inputs/cleaned |edu_data_cleaned.csv | 1|csv file saved after data cleaning|
+| jupyter_notebooks |1_data_etl.ipynb | 1|Analysis Step 1 - data extract, transform and load|
+| jupyter_notebooks |2_exploratory_analysis.ipynb | 1|Analysis Step 2 - exploratory data analysis|
+| jupyter_notebooks |3_hypothesis_testing.ipynb | 1|Analysis Step 3 - hypothesis testing|
+| jupyter_notebooks |4_prediction_model.ipynb| 2 and 3|Analysis Step 4 - prediction model and key drivers identification|
 | pictures ||relationships_between_parent_variables.jpg| 1|screenshot of the Plotly graph used in Analysis Step 2|
 | y_profiling_report ||profile_report.html**| 1|Ydata profiling report used in Analysis Step 2|
 
@@ -117,7 +117,7 @@ Looking ahead, I would like to explore different approaches to enhance predictio
 
 
 ## 11 Main Data Analysis Libraries
-NumPy and Pandas for data interrogation and manuipulation.
+NumPy and Pandas for data interrogation and manipulation.
 Seaborn and Plotly, supported by Matplotlib, for the visualisations.
 Ydata profiling for exploratory data analysis
 Pingouin for statistical testing
@@ -126,9 +126,11 @@ Feature-engine for feature encoding and transformation
 
 
 ## 12 Credits 
-Amrieh, E. A., Hamtini, T., & Aljarah, I. (2016). Mining Educational Data to Predict Student’s academic Performance using Ensemble Methods. International Journal of Database Theory and Application, 9(8), 119-136.
+Research papers associated with the dataset:
 
-Amrieh, E. A., Hamtini, T., & Aljarah, I. (2015, November). Preprocessing and analyzing educational data set using X-API for improving student's performance. In Applied Electrical Engineering and Computing Technologies (AEECT), 2015 IEEE Jordan Conference on (pp. 1-5). IEEE.
+- Amrieh, E. A., Hamtini, T., & Aljarah, I. (2016). Mining Educational Data to Predict Student’s academic Performance using Ensemble Methods. International Journal of Database Theory and Application, 9(8), 119-136.
+
+- Amrieh, E. A., Hamtini, T., & Aljarah, I. (2015, November). Preprocessing and analyzing educational data set using X-API for improving student's performance. In Applied Electrical Engineering and Computing Technologies (AEECT), 2015 IEEE Jordan Conference on (pp. 1-5). IEEE.
 
 ChatGPT and GitHub Copilot for ideation such as hypotheses filtering, learning and checking understanding of data analytical concepts and techniques, code creation and clarification.
 
