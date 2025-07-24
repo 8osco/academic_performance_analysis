@@ -41,9 +41,9 @@ The project files are managed in GitHub and the arrangement is as follows:
 | pictures |relationships_between_parent_variables.jpg|screenshot of the Plotly graph used in Analysis Step 2| 1|
 | y_profiling_report |profile_report.html**|Ydata profiling report used in Analysis Step 2| 1|
 
-*Due to limitations with the version of PowerBI being used, a link cannot be provided, however, a file is available in this folder]
+*Due to limitations with the version of PowerBI being used, a link cannot be provided.  The file can be downloaded from this folder.
 
-**The Ydata profiling report can also be viewed in https://8osco.github.io/
+**The Ydata profiling report can also be viewed directly in https://8osco.github.io/
 
 Version control is mostly managed via GitHub, using regular commits and pushes to track changes.  The only exceptions are PowerBI files, where version control is managed on PowerBI workspace.  Only the final version is copied to GitHub.
 
