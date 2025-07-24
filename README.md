@@ -42,6 +42,7 @@ The project files are managed in GitHub and the arrangement is as follows:
 | y_profiling_report |profile_report.html**|Ydata profiling report used in Analysis Step 2| 1|
 
 *Due to limitations with the version of PowerBI being used, a link cannot be provided, however, a file is available in this folder]
+
 **The Ydata profiling report can also be viewed in https://8osco.github.io/
 
 Version control is mostly managed via GitHub, using regular commits and pushes to track changes.  The only exceptions are PowerBI files, where version control is managed on PowerBI workspace.  Only the final version is copied to GitHub.
@@ -50,13 +51,13 @@ Version control is mostly managed via GitHub, using regular commits and pushes t
 ## 5 Project Plan
 The project plan was initiated following the establishment of the 4 business requirements. The first 3 requirements are addressed primarily through the use of Jupyter Notebooks. The corresponding implementation is reflected in the file structure outlined above, with each analysis step detailed as follows:
 
-Analysis Step 1 – Data extraction and familiarisation with the dataset. Python functions were used to identify missing values, duplicates and outliers. A list of data quality issues and change requirements was prepared and investigated further. Data cleaning tasks were prioritised, leading to the delivery of the first version of the cleaned dataset.
+**Analysis Step 1** – Data extraction and familiarisation with the dataset. Python functions were used to identify missing values, duplicates and outliers. A list of data quality issues and change requirements was prepared and investigated further. Data cleaning tasks were prioritised, leading to the delivery of the first version of the cleaned dataset.
 
-Analysis Step 2 – Further feature analysis was conducted using the YData Profiling tool. Visualisations were employed to explore relationships between features, supporting initial views on feature selection.
+**Analysis Step 2** – Further feature analysis was conducted using the YData Profiling tool. Visualisations were employed to explore relationships between features, supporting initial views on feature selection.
 
-Analysis Step 3 – The four hypotheses were explored using data visualisations and evaluated with statistical measures (e.g., mean, variance), followed by validation using appropriate statistical tests.
+**Analysis Step 3** – The four hypotheses were explored using data visualisations and evaluated with statistical measures (e.g., mean, variance), followed by validation using appropriate statistical tests.
 
-Analysis Step 4 – A prediction model was developed and evaluated to assess performance. Key features influencing academic outcomes were identified to inform the metrics and visual elements of the executive dashboard.
+**Analysis Step 4** – A prediction model was developed and evaluated to assess performance. Key features influencing academic outcomes were identified to inform the metrics and visual elements of the executive dashboard.
 
 Project planning, monitoring and evaluation process was supported by Github project board, which can be found in https://github.com/users/8osco/projects/8/views/1.  User stories were created to guide the sequencing and formation of individual analysis steps.
 
@@ -89,15 +90,15 @@ User interaction is enabled through selectable buttons and interactive map eleme
 
 The attributes presented were selected based on insights from the coefficient ranking exercise, which revealed several notable patterns:
 
-- Students from Saudi Arabia have a comparatively higher pass rate.
+- Students from Saudi Arabia have a comparatively higher pass rate
 
-- Students in the low absence group perform better.
+- Students in the low absence group perform better
 
-- Middle school students tend to have higher pass rates than those in other education stages.
+- Middle school students tend to have higher pass rates than those in other education stages
 
-- Female students outperform male students in terms of pass rate.
+- Female students outperform male students in terms of pass rate
 
-- Students whose parents responded to the survey show higher success rates.
+- Students whose parents responded to the survey show higher success rates
 
 The dashboard also allows for cross-feature comparisons, enabling users to explore how combinations of these attributes impact academic outcomes.
 
@@ -117,12 +118,12 @@ Looking ahead, I would like to explore different approaches to enhance predictio
 
 
 ## 11 Main Data Analysis Libraries
-NumPy and Pandas for data interrogation and manipulation.
-Seaborn and Plotly, supported by Matplotlib, for the visualisations.
-Ydata profiling for exploratory data analysis
-Pingouin for statistical testing
-Scikit-learn for machine learning model building, evaluation and pipeline management
-Feature-engine for feature encoding and transformation
+- NumPy and Pandas for data interrogation and manipulation
+- Seaborn and Plotly, supported by Matplotlib, for the visualisations
+- Ydata profiling for exploratory data analysis
+- Pingouin for statistical testing
+- Scikit-learn for machine learning model building, evaluation and pipeline management
+- Feature-engine for feature encoding and transformation
 
 
 ## 12 Credits 
